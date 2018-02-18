@@ -227,6 +227,7 @@ class ResultController extends ControllerAbstract
             $template_data['mp3_download_quality'] = $config->get('MP3Quality');
         }
 
-        echo $template->render('getvideo.php', $template_data);
+        //echo $template->render('getvideo.php', $template_data);
+        return $template_data;
     }
 }
