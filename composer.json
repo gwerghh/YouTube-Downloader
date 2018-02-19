@@ -1,15 +1,14 @@
 {
-    "name": "jeckman/YouTube-Downloader",
+    "name": "savior/YouTube-Downloader",
     "type": "library",
     "description": "YouTube-Downloader",
-    "homepage": "https://github.com/jeckman/YouTube-Downloader",
+    "homepage": "https://github.com/saviorZSC/YouTube-Downloader",
     "keywords": ["YouTube-Downloader", "YouTube", "Downloader"],
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "John Eckman",
-            "email": "eckman.john@gmail.com",
-            "homepage": "http://www.openparenthesis.org/"
+            "name": "savior zsc",
+            "email": "saviorzsc@gmail.com"
         }
     ],
     "config": {
