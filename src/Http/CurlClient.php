@@ -86,6 +86,13 @@ class CurlClient implements Client
             CURLOPT_FOLLOWLOCATION => true,
         ];
 
+        if(function_exists('config')){
+            if(config("youtube.curl_proxy")){
+                $default_options[CURLOPT_PROXY] = config("youtube.curl_proxy");
+                $default_options[CURLOPT_PROXYPORT] = config("youtube.curl_proxy_port", "1080");
+            }
+        }
+
         switch ($request->getProtocolVersion()) {
             case '1.1':
                 $default_options[CURLOPT_HTTP_VERSION] = CURL_HTTP_VERSION_1_1;
