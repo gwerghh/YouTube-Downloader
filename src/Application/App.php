@@ -80,8 +80,10 @@ class App
 
         $controller = $controller_factory->make($route, $this);
 
-        $controller->execute();
+        $data = $controller->execute();
 
         $this->getContainer()->get('logger')->debug('Controller executed. App closed.');
+
+        return $data;
     }
 }
