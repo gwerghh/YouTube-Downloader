@@ -1,14 +1,14 @@
 {
-    "name": "savior/YouTube-Downloader",
+    "name": "gwerghh/YouTube-Downloader",
     "type": "library",
     "description": "YouTube-Downloader",
-    "homepage": "https://github.com/saviorZSC/YouTube-Downloader",
+    "homepage": "https://github.com/gwerghh/YouTube-Downloader",
     "keywords": ["YouTube-Downloader", "YouTube", "Downloader"],
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "savior zsc",
-            "email": "saviorzsc@gmail.com"
+            "name": "gwerghh",
+            "email": "gwerghh2013@gmail.com"
         }
     ],
     "config": {
